@@ -268,7 +268,11 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libOmxSwVdec \
+    libOmxSwVencMpeg4 \
+    libMpeg4SwEncoder \
+    libstagefrighthw \
+    libswvdec
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
