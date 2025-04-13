@@ -487,6 +487,11 @@ vendor/lib64/libsensor_reg.so
 vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.ssc.so
 
+# Thermal - from FP3-user-9-8901.2.A.0110.20200109-01092024-release-keys
+vendor/bin/thermal-engine
+-vendor/lib/libthermalclient.so
+-vendor/lib64/libthermalclient.so
+
 # Time services - from FP3-user-9-8901.2.A.0110.20200109-01092024-release-keys
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
